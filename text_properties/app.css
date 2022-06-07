@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    text-decoration: blue underline dotted;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    font-weight: 700;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+}
+#signUp{
+    background-color: #00b4d8;
+}
+/*#login{
+    background-color: #95d5b2;
+}*/
+span{
+    background-color: aquamarine;
+}
+.tag{
+    background-color: red;
+    font-size: 12px;
+    color: yellowgreen;
+}
+button:hover{        /*hover is a part of pseudo class*/
+    background-color: aquamarine;
+    color:chartreuse;
+}
+button:active{
+    background-color: darkgoldenrod;
+}
+p::selection{   /*this is a pseudo element preceeded by "::", here using selection highligjts the content in page when selected
+    background-color: gold;
+}

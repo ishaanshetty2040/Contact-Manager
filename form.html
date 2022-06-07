@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form demo</h1>
+    <form action="https://www.google.com/">
+        <p>
+            <label for="Username">Enter username</label>
+            <input id="Username" type="text" placeholder="username" name="username" required>
+        </p>
+        <p>
+            <label for="password">Enter password</label>
+            <input type="password" placeholder="password" id="password" name="password" required>
+        </p>
+        <p>
+            <label for="color"></label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="number">Enter number</label>
+            <input type="number" placeholder="enter number" id="number" name="number">
+        </p>
+        <button>SUBMIT</button>
+    </form>
+    <h2>Hijacking searches</h2>
+    <h3>Google search</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search google</button>
+    </form>
+    <h3>Youtube search</h3>
+    <form action="https://www.youtube.com/results?">
+        <input type="text" name="search_query">
+        <button>Search youtube</button>
+    </form>
+    <h1>More inputs</h1>
+    <form action="/cars">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+        <h3>Pick your size</h3>
+        <label for="xs">XS</label>
+        <input type="radio" name="size" value="xs" id="xs">
+        <label for="s">S</label>
+        <input type="radio" name="size" value="s" id="s">
+        <label for="l">L</label>
+        <input type="radio" name="size" value="l" id="l">
+        </p>
+        <p>
+            <label for="Car">Select your entry</label>
+            <select name="car" id="Car">
+                <option value="">Please choose your option</option>
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="hatchback">Hatchback</option>
+                <option value="offroader">offroader</option>
+            </select>
+        </p>
+        <p>
+            <label for="level">Enter your quality level</label>
+            <input type="range" id="level" name="quality_level" min="1" max="100">
+        </p>
+        <p>
+            <label for="texts">Any requests?</label>
+            <br>
+            <textarea id="texts" rows="20" cols="40" name="textbox" placeholder="Enter something"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

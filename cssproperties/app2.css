@@ -1,0 +1,21 @@
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /*transition: margin-left 4s;*/
+    transition: background-color 3s ease-in 1s, border-radius 2s;
+}
+.circle:hover{
+    background-color: burlywood;
+    border-radius: 50%;
+    margin-left: 400px;
+}
+section div{
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    transition: margin-left 4s;
+}
+section:hover div{
+    margin-left: 400px;
+}
